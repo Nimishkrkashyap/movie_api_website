@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+    margin: 2vw 0;
+}
+.container{
+    height:18vw;
+    width:20%;
+    background-color:rgba(255, 255, 255, 0.842);
+    margin:2vw auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 2px 2px 5px 2px rgba(138, 138, 138, 0.37);
+}
+.button{
+    margin: 1vw auto;
+    display: block;
+    padding: 0.7vw 2vw;
+   font-size: 0.8vw;
+   color:rgba(82, 80, 80, 0.952);
+}
+.heading_secondary{
+    text-align: center;
+    font-size: 0.8vw;
+    color: rgba(82, 82, 82, 0.692);
+}
+input[type="text" i] {
+    padding: 0;
+}

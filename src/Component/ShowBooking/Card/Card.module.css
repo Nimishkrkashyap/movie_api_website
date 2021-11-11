@@ -1,0 +1,40 @@
+.card_parent_show{
+    height: 6vw;
+    width: 90%;
+    margin: 1vw auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    height: 6vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 10px rgba(218, 226, 233, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading, .sub_heading{
+    text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 65vw; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+.heading{
+    font-size: 1.2vw;
+    color: rgb(116, 114, 114);
+}
+.sub_heading{
+    font-size: 0.8vw;
+    color: rgb(116, 114, 114);
+    margin: 0.5vw 0;
+}
+.img{
+    height: 3.5vw;
+    width: 3.5vw;
+    /* border-radius: 50%; */
+    margin: 1.2vw;
+}
